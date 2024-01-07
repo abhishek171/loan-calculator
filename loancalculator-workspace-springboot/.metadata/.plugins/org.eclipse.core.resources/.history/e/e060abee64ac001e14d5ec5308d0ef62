@@ -1,0 +1,6 @@
+package com.service;
+
+@Servicce
+public class UserDetailsService {
+
+}

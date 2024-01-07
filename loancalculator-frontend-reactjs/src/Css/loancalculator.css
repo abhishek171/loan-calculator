@@ -1,0 +1,226 @@
+@keyframes translate-animStart {
+    0% {
+        transform: translateX(0%);
+        transform-origin: left;
+    }
+    100% {
+        transform: translateX(160%);
+        transform-origin: left;
+    }
+}
+
+.animStart {
+    animation-name: translate-animStart;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes translate-animEnd {
+    0% {
+        transform: translateX(160%);
+        transform-origin: right;
+    }
+    100% {
+        transform: translateX(0%);
+        transform-origin: right;
+    }
+}
+
+.animEnd {
+    animation-name: translate-animEnd;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+.menu_Order_Cart {
+    display: none;
+    position: fixed;
+    top: 8%; 
+    right: 1%;
+    z-index: 999;
+    padding: 10px;
+    background-color:white;
+    z-index: 5000;
+    border-top: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.menu_Order_Cart::before {
+    content: "";
+    position: fixed;
+    top: 7.1%;
+    right: 1.5%;
+    margin-top: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent transparent;
+    outline: 8px;
+    background-color: transparent;
+    border-color: transparent transparent black transparent;
+    transform: translateX(-70%);
+}
+  .userForm{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top:0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  .userForm input{
+    height:45px;
+    width:100%;
+    text-align: left;
+    padding: 10px 45px;
+    border: 1px solid lightgrey;
+    border-radius: 10px;  
+  
+}
+  .userForm form button{
+    padding:10px 24px;
+    margin-left: 0%;
+    margin-top: 8%;
+    width: 100%;
+    border-radius: 5px;
+    background-color:  rgb(201, 25, 25);
+    color:white;
+  }
+
+  .userForm form label{
+    color: rgb(201, 25, 25);
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 15px;
+  }
+
+  .userForm input:focus{
+    outline: none;
+  }
+
+  .error{
+    color: red;
+  }
+
+  .slideIn{
+    animation-name: slide-in;
+    animation-duration: 0.2s;
+    animation-timing-function: ease-in;
+  }
+  @keyframes slide-in {
+    0%{
+      transform: scaleX(0);
+      transform-origin: right;
+    }
+    100%{
+      transform: scaleX(1);
+      transform-origin: right;
+    }
+  }
+  .slideOut{
+    animation-name: slide-out;
+    animation-duration: 0.8s;
+    animation-timing-function: ease;
+  }
+  @keyframes slide-out {
+   
+    100%{
+      transform: scaleX(0);
+      transform-origin: left;
+    }
+  }
+  .loanAppForm{
+    margin: auto;
+    width: 50%;
+    height: 500px;
+    padding: 35px ;
+    overflow: auto;
+    padding-right: 10px;
+    background-color: white;
+  }
+  .loanAppForm::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  .loanAppForm::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 25px;
+  }
+  
+  .loanAppForm::-webkit-scrollbar-thumb {
+    background:rgb(231, 35, 156);
+    border-radius: 25px;
+  }
+  
+  .loanAppForm::-webkit-scrollbar-thumb:hover {
+    background: rgb(214, 52, 152);
+  }
+
+.loanAppForm input{
+    height:45px;
+    width:100%;
+    text-align: left;
+    padding: 10px 45px;
+    border: 1px solid lightgrey;
+    color:black;
+    border-radius: 10px;  
+}
+
+.loanAppForm label{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-top: 20px;
+}
+.loanAppForm button{
+  padding:10px 24px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: rgb(214, 52, 152);
+  color: white;
+}
+.loanAppForm input:focus{
+  outline: none;
+}
+.loanAppForm select:focus{
+  outline: none;
+}
+.footer{
+  background-color:black;
+  color:white ;
+  padding:0px 5%;
+ }
+ .footer ul li{
+  padding: 15px 0;
+ }
+  .info{
+    padding: 80px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .footer h2{
+    padding-bottom: 20px;
+    color:grey;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .social{
+    padding: 30px 0;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+
+
+
+  

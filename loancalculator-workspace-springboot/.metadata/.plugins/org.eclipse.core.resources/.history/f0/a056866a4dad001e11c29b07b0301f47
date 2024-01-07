@@ -1,0 +1,11 @@
+package com.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.entity.LoanDetails;
+
+public interface LoanDetailsRepository extends JpaRepository<LoanDetails, Long> {
+
+	LoanDetails getLoanDetailsById(long userId);
+
+}
