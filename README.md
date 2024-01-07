@@ -13,4 +13,10 @@ FrontEnd
 
 -> React Js
 
+-> HTML
+
+-> CSS
+
+-> Material UI
+
 -> Chart Js
