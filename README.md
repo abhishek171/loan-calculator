@@ -13,9 +13,9 @@ FrontEnd
 
 -> React Js
 
--> HTML
+-> HTML v5
 
--> CSS
+-> CSS v3
 
 -> Material UI
 
