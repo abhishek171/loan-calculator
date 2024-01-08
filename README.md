@@ -3,13 +3,17 @@ This project is made using SpringBoot and React Js
 
 Technology Stack
 
+Backend Tech Stack
+
 -> Core Java
 
 -> Spring Boot Using JPA
 
+Database
+
 -> MySql
 
-FrontEnd
+FrontEnd Tech Stack
 
 -> React Js
 
