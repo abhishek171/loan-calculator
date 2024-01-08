@@ -1,5 +1,5 @@
 # loancalculator
-This project is made using SpringBoot and React Js
+This is FullStack Project made using SpringBoot and React Js
 
 Technology Stack
 
